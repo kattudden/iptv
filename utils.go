@@ -2,6 +2,7 @@ package main
 
 import (
 	"os/user"
+	"errors"
 )
 
 func GetCurrentUserHomeDir() (homeDir string, err error){
